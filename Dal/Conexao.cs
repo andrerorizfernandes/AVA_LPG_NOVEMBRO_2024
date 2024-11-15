@@ -10,7 +10,7 @@ namespace Dal
 {
     public class Conexao
     {
-        private static string strigConexao = "server=127.0.0.1;user=root;password=18071988;database=dataschool";
+        private static string strigConexao = "server=127.0.0.1;user=root;password=123456;database=prova_X";
 
         public static MySqlConnection ConectarBD()
         {
