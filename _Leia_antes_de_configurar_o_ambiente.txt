@@ -1,0 +1,10 @@
+Instruções para executar o projeto desse repositório:
+
+1. Baixe esse repositório ou aplique o "clone" dele diretamente pelo Visual Studio;
+2. O projeto está configurado e ajustado para o .Net Framework 4.8.1 se necessário ajustar modifique a versão em cada camada e ajuste o Web.config na view;
+3. Defina o projeto View como o principal;
+4. Defina o arquivo Index.aspx, na camada de view, como o arquivo principal que será carregado;
+5. Modifique os dados de configuração na conexão com o banco de dados;
+6. Instale as dependências necessárias;
+7. Ajuste os erros existentes na classe Persistencia.cs até que todos os projetos da solution sejam "rebuildados" sem erros;
+6. Se a execução falhar e apresentar erro de .Net Framework no navegador, feche o Visual Studio, delete a pasta ".vs" da raiz do projeto e tente a execução novamente.
